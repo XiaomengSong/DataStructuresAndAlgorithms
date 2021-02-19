@@ -55,7 +55,7 @@ import java.util.List;
 // Related Topics 数组 双指针
 //
 public class Test {
-
+    //第一版
     public int removeDuplicates(int[] nums) {
         List<Integer> list = new ArrayList<>();
         if (nums.length < 2) {
