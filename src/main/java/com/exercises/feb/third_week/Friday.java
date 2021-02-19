@@ -34,4 +34,18 @@ package com.exercises.feb.third_week;
 // Related Topics 双指针 字符串
 
 public class Friday {
+    public int strStr(String haystack, String needle) {
+        if (needle == null || needle.equals("")) {
+            return 0;
+        } else if (needle.length() > haystack.length()) {
+            return -1;
+        } else {
+            for (int i = 0; i < haystack.length(); i++) {
+                if (i + needle.length() <= haystack.length() && haystack.startsWith(needle, i)) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+    }
 }

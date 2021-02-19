@@ -1,0 +1,4 @@
+com/exercises/feb/third_week/Thursday.java
+ com.exercises.feb.third_week.Thursday
+com/exercises/feb/third_week/Friday.java
+ com.exercises.feb.third_week.Friday
